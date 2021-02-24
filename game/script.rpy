@@ -4,7 +4,7 @@
 # cnth. image eileen happy = "eileen_happy.png"
 
 # Deklarasikan karakter yang digunakan di game.
-define mc = Character('Ardaaa')
+define mc = Character('Arda')
 define spk = Character('Speaker')
 define s1 = Character('Siswa 1')
 define s2 = Character('Siswa 2')
