@@ -1,6 +1,4 @@
-﻿# Kamu dapat taruh script game mu di file ini.
-
-# Deklarasikan gambar di bawah line ini, menggunakan pernyataan image.
+﻿# Deklarasikan gambar di bawah line ini, menggunakan pernyataan image.
 # cnth. image eileen happy = "eileen_happy.png"
 
 # Deklarasikan karakter yang digunakan di game.
