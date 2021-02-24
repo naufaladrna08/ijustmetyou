@@ -53,7 +53,7 @@ transform toRightt0:
 # Game dimulai disini.
 # Chapter 0
 label start:
-    "Dimalam hari yang dingin, aku pergi keluar untuk menjernihkan pikiranku."
+    "Di malam hari yang dingin, aku pergi keluar untuk menjernihkan pikiranku."
     "Aku berjalan di pinggir jalan, tepatnya di trotoar."
     "Disamping wanita bersweater ungu, tepatnya di pertigaan jalan, aku melihat rambu lalu lintas yang memberikan tanda Stop (lampu merah)."
     "Untuk sementara aku mengabaikan jalanan didepan karena masih jauh sekali, aku mengangkat kepalaku keatas, melihat angkasa dan bertanya-tanya apa yang terbaik untuk adik dan diriku sendiri."
