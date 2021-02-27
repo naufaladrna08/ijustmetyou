@@ -235,6 +235,7 @@ label chapter1:
     mc "Enggak kok, beda kelas"
     s8 "Hohhh, yaudah. Take care Da"
     mc "Ok, you too"
+    mc "barusan siapa ?"
 
     "Tak lama gurupun masuk ke kelas..."
     "Bersama Benny yang sedang loncat kodok..."
@@ -266,9 +267,23 @@ label chapter1:
     b "Malah bengong lu disuruh ngenalin diri"
     mc "Sorry sorry, hehehe"
     
-    "Dan tak lama, waktu kelaspun berakhir dengan bunyinya bel"
-    "Murid-murid pun keluar dari kelasnya"
+    "Pengenalan diri terus berlanjut"
+    "Sampai..."
 
+    s4 "Kirana, saya baru pindah kesekolah ini"
+    pg "Woah, asal sekolah darimana Kirana?"
+    s4 "Ahhh... dari..."
+    pg "Ya ?"
+    s4 "Dari SMA Barta"
+    pg "Ohhh, bagus-bagus. Silahkan selanjutnya"
+
+    "Kirana dari Barta"
+    "Barta?"
+    "Dari Barta ke Ciruka... Jauh sekali"
+    "Setelah pengenalan diri, Pak Nadi memberikan informasi sekolah, mulai dari jadwal pelajaran, pilihan untuk kuliah atau kerja, dan lain-lain."
+    "Waktu kelaspun berakhir dengan bunyinya bel"
+    "Murid-murid pun keluar dari kelasnya"
+    
     pg "Arda, kemari sebentar!"
     mc "Ah, iya"
     pg "Si Lara sama Kay gak sekelas ya?"
@@ -344,7 +359,7 @@ label chapter1:
     k "Hihihi, gitu dong"
     mc "Mau main PES dirumah gue gak?"
     b "Anying, beneran dong ngajakin"
-    l "Harghhhhh, MCccccc"
+    l "Harghhhhh, Ardaaa"
     k "Ayolah, gasabar mau bantai-bantai pakai ipul"
     b "Sok banget, yang 5-0 lawan emyu tuh siapa ya? Huh? Huh?"
     l "Hahahaha"
