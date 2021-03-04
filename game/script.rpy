@@ -2,7 +2,7 @@
 # cnth. image eileen happy = "eileen_happy.png"
 
 # Deklarasikan karakter yang digunakan di game.
-define mc = Character('Arda')
+define  mc = Character(' mc)
 define spk = Character('Speaker')
 define s1 = Character('Siswa 1')
 define s2 = Character('Siswa 2')
@@ -19,6 +19,8 @@ define k = Character('Kay')
 define t = Character('Terry')
 define h = Character('Harris')
 define b = Character('Benny')
+define tdk = character ('?')
+define w = character ('w)
 
 transform slightLeft:
     xalign 0.25
@@ -51,53 +53,146 @@ transform toRightt0:
 # Game dimulai disini.
 # Chapter 0
 label start:
-    scene bg rambu
-    "Di malam hari yang dingin, aku pergi keluar untuk menjernihkan pikiranku."
-    "Aku berjalan di pinggir jalan, tepatnya di trotoar."
-    "Disamping wanita bersweater ungu, tepatnya di perempatan jalan, aku melihat rambu lalu lintas yang memberikan tanda Stop (lampu merah)."
-    "Untuk sementara aku mengabaikan jalanan didepan karena masih jauh sekali, aku mengangkat kepalaku keatas, melihat angkasa dan bertanya-tanya apa yang terbaik untuk adik dan diriku sendiri."
+   scene bg rambu
+   "Di malam hari yang dingin, aku pulang berjalan menuju ke rumah orang tuaku setelah meninggalkan stasiun kereta"
+   "Aku berjalan tepat di jembatan dengan pemandangan yang menakjubkan di sebelahku."
+   "Langit-langit gelap yang indah, udara yang sejuk menyelimuti leherku, suara arus sungai di bawah yang sangat menenangkan, rasanya aku jadi ingin tinggal di jembatan."
 
-    scene bg hitam
-    mc "Aku ingin menjaga adikku yang sakit di rumah, tetapi sekolah yang saat ini aku tempati rasanya terlalu jauh."
-    mc "Aku takut..."
-    mc "Aku takut adikku hilang dari penglihatanku saat aku pulang dari sekolah..."
-    mc "Tapi..."
-    mc "Aku ingin melihat sahabat-sahabatku"
-    mc "Aku ingin sesekali bermain dengan mereka"
-    mc "Hanya mereka lah yang mengerti diriku"
-    mc "setidaknya mereka mengerti sedikit sejatinya diriku."
-    mc "Apa yang harus kulakukan?"
-    mc "Menjauh dari sahabatku demi adikku?"
-    mc "Atau aku harus membuat adikku menunggu dirumah sendirian?"
-    mc "Kakak macam apa aku? "
-    mc "Aku..."
-    mc "Aku... Aku... "
+   "Bzzzzz Bzzzzz! Bzzzzz Bzzzzz!"
 
-    menu:
-      "Tidak Pindah Sekolah":
-        jump tidak_pindah_sekolah
+    mc "(Siapa ini? Cuman ada nomornya doang, apa belum aku simpan ya nomornya? Atau mungkin nomor baru Mamah? Karena dia pernah bilang mau ganti provider) [jawab telpon]"
+    mc "Halo?"
+   tdk "Halo, apakah ini dengan     mc"
+    mc "Nama mcbanyak, buk---"
+   tdk "Ardavelt Dovinie"
+    mc "Ya, itu saya. Ada apa?"
+   tdk "Apakah mood dan mental anda sedang baik saat ini?"
+    mc "Ya, tentu saja. Aku akan bertemu dengan keluargaku dan sahabat-sahabatku lagi, mana mungkin mood dan mentalku buruk sekarang"
+   tdk "Apakah tidak ada tempat yang membahayakan nyawa?"
+    mc "[melihat jembatan dan arus sungai yang begitu kencang] Tidak ada"
+   tdk "Ardavelt Dovinier. Sekarang anda berada dimana?"
+    mc "Di trotoar (di trotoar jembatan, sebelahku ada sungai. Tidak salahkan?)"
+   tdk "Saya mohon, jangan membohongi saya,     mc
+    mc "Saya gak mungkin berbohong, asli kok saya ada di trotoar"
+   tdk "Kenapa aku mendengarkan ada suara arus sungai yang kencang? Apakah anda berada di atas jembatan?"
+    mc "Tidak, saya berada di atas trotoar"
+   tdk "ARDA!"
+    mc "Aghh?!"
+    mc "...."
+    mc "Maaf, saya berada diatas jembatan dan betul ada sungai dibawah jembatan dengan arus yang kencang"
+   tdk "Hahhh... Saya mohon maaf atas perilaku saya yang sangat memalukan. Mungkin ini bawaan dari perang Nagini"
+    mc "Gak masalah, jadi... ada apa anda menelpon saya?"
+   tdk "Bisakah anda berbicara dengan saya sambil berjalan?"
+    mc "Bisa [mcmulai berjalan]"
+   w "Sebelumnya saya mohon maaf, nama saya Wozasky Montrym, anda bisa memanggil saya dengan w Saya adalah rekrutan baru dari rumah sakit Ciruka"
+    mc "Wozasky ya, kayak nama orang cyka blyat gitu"
+   w "Anda tahu arti dari cyka blyat?"
+    mc "Enggak"
+   w "Ada baiknya anda jangan menggunakan kata itu sembarangan"
+    mc "Kenapa? Kata kasar?"
+   w "Iyaaa... benar-benar kata yang sangat jorok dan kasar di waktu yang sama"
+    mc "Oh, maaf"
+   w "Tidak masalah"
+   w "  mc sekarang anda berada dimana?"
+    mc "Di luar jembatan, sekitar 2 meter jauhnya"
 
-      "Pindah Sekolah":
-        jump pindah_sekolah
+   w "  mc dengarkan ini baik-baik. Pertama-tama aku ingin anda bernafas dengan tenang"
+    mc "Kenapa?"
+   w "Lakukan saja, lakukan apa yang aku katakan"
+    mc "Baiklah, hufffff... hahhhhh... [mengambil nafas dan mengeluarkan]"
+   w "Ya, terus lakukan sampai anda merasa tenang"
+    mc "hufffff... hahhhhh..."
+   w "Bagaimana perasaan anda kali ini"
+    mc "Cukup tenang"
+   w "Baiklah, apakah ada tempat duduk di dekat sana?"
+    mc "Tidak ada, ini di trotoarkan"
+   w "Baiklah.  mc kami memiliki pesan untuk anda"
+    mc "Pesan? Gak bisa dichat aja?"
+   w "Mungkin lebih tepatnya berita. Saya selaku mantan ten--- Saya selaku manusia yang pernah mengalami ini merasa chat bukanlah pilihan yang tepat"
+    mc "Ok..."
+   w "kedua orang tuamu meninggal karena kecelakan di perempatan Jalan Mori, terjadi pada jam setengah 8 malam hari ini"
+    mc "(Jadi... saat aku baru menginjakan tanah di kota ini... Ibu... Ayah... tapi mengapa?) Bagaimana dengan Harris?"
+   w "!"
+   w "Dia baik-baik saja di rumah, dia tidak ikut dengan kedua orang tuamu"
+    mc "Salah siapa ini?"
+   w "Pengemudi yang menabrak dari samping. Kedua orang tuamu adalah penumpang dimobil Pak Nadi."
+   w "Saat lampu berwarna hijau, mereka jalan, akan tetapi... mobil pickup melewati lampu merah dan melaju sangat cepat dari samping, dan menabrak mereka bertiga. Pak Nadi dengan ajaib selamat, tapi orang tuamu... maaf, tidak bisa kami selamatkan..."
+    mc "Terkadang dunia ini tidak adil, tapi kau harus menerimanya dan terus berdiri"
+   w "Huh?  mc kita bisa membicarakan ini. Kau bisa berbicara denganku, lepaskanlah semua isi di hatimu. Aku akan mendengarkannya”
+    mc "Tidak ada yang bisa dibicarakan lagi, w Semuanya terdengar dengan jelas, terimakasih atas kabarnya. Aku ingin bergegas ke rumah untuk bertemu dengan adikku [berjalan menuju jembatan]"
+   w "Baiklah.  mc jika ada apa-apa, telepon nomor yang akan aku SMS-kan. Jaga dirimu baik-baik, tentunya dengan adikmu”
+    mc "Terimakasih w[menutup panggilan]"
+    mc "bangsat..."
+
+   "Tanpa habis pikir, aku pergi ke jembatan yang aku lewati"
+   "Aku berjalan"
+   "Berjalan..."
+   "Terus berjalan..."
+   "Bzzzzz Bzzzzz!"
+   "Pesan, dari Wozky. Heh"
+   "Satu mobil melewatiku, itu mobil pertama yang kulihat di jembatan ini. Bukankah jembatan ini terasa sangat sepi?"
+   "Sama seperti jiwa ini..."
+
+   "Kali ini aku berdiri tepat berada di tempat, di mana aku merasakan hawa ini lagi"
+   "Sekarang aku melakukaknnya lagi, melihat arus sungainya lagi"
+   "Bulannya sangat indah, aku masih berpikir bagaimana bulan bisa memiliki cahaya. "
+   "Apakah itu dari matahari? Betapa bodohnya aku, tidak tahu sumber cahaya bulan"
+   "Angin malam masih menyelimuti leherku, mukaku, tanganku, dan telapak tanganku. "
+   "Angin ini seakan-akan menarikku kebawah... kebawah jembatan ini..."
+   "Aku melihatnya, arus sungai itu. Sangat mendukung untuk menyeret manusia dengan cepat hingga hilang dari dunia ini"
+   "Bukankah ini bagus. Bahkan alam mendukungku untuk melakukan ini, hahaha"
+
+    mc "Bagaimana rasanya jika aku melompat dari jembatan ini?"
+
+    "Akankah aku terbang seperti pahlawan super? Atau hanya seperti seorang pecundang?"
+    "Mungkin hanya akan seperti diriku, seorang pecundang yang ingin menjadi pahlawan super..."
+    "Mimpi kecilku yang takkan terwujud..."
+    "Terlalu banyak bermimpi bisa menyebabkan orang gila"
+    "Tapi kenapa aku tidak pernah menjadi orang gila?"
+    "Aku menaiki jembatan dan berdiri di belakang penahannya"
+
+        mc "Sambil minum susu enak kayaknya, susu stroberi hangat"
+        mc "Woah, susu stroberi hangat. Inovasi terbaru"
+        mc "[membuka hp] Timer, timer, timer... Nahh, ketemu. Set waktu ke 5 menit, sip"
+        mc "[membuka kontak Harris] Harris, gimana kabar kamu, cepet-cepet sehat ya."
+        mc ". Oh iya, kakak kayaknya gak bakal bisa ketemu sama kamu lagi."
+        mc "Kakak bakal tinggal sendiri di kota Barta, tenang aja kalau masalah uangmah."
+        mc "Disana kakak udah dapet kerjaan kok, si Bapak Rahman orangnya baik, kakak kerja jadi orang yang nyatet-nyatet data."
+        mc "Kamu tahulah namanya apa, kamukan orang paling pinter di sekolah, hehehe."
+        mc "Terus berkembang bro, jangan kayak kakak kamu yang suka males ngapa-ngapain juga, hehehe."
+        mc "Yaudah itu aja ya, jangan macem-macem sama diri kamu sendiri. Jaga kesehatan kamu, terus hidup, jangan mati konyol. Goodbye Harrisirta."
+        mc "Lope-lope from your handsome bigbro"
+        mc"..."
+        mc "one “[hapus semua chat kontak Harris, artinya buat si chat diatas reverse]"
+        mc "Habs 5 menit gak ada hasil"
+
+    "Kenapa aku melakukan ini?"
+    "Kenapa?"
+    "tolong..."
+    "Tolong..."
+
+    "TOLONGGG!!!"
+    "TOLONG AKUUUUU!!! TOLONGGGGG!!!!!"
+    "AKU GAK MAU MATI!!! TOLONGGG!!!"
+    "KENAPA GAK ADA ORANG YANG MENDENGARKAN AKU?!?!?!"
+    "KENAPA?!?!"
+    "tolong..."
+    "Cukup seorang saja... tolong..."
+
+    
+    mc "Nangis? Haha-- hiks..."
+    mc "Ibu... Ayah... kenapa..."
+    mc "Kenapa disaat aku menginjakan tanah ini, kalian meninggalkanku..."
+    mc "Kenapa..."
+    mc "Nadi... Pak Nadi anjing... Si bajingan bawa-bawa orang tua gue cuman buat main-main! Gak ada kerjaan lain apa?! Emangnya gak punya temen yang lain selain Ayah sama Ibu gue?!"
+    mc "bajingan..."
+    mc "one: “Beepbeepbeep, beeppp beeppp, beepbeepbeep, beeppp beeppp”
+    mc "[matiin alarm] Udah habis ya..."
+
+    
 
 
-    return
 
-label pindah_sekolah:
-    mc "Aku ingin meluangkan waktuku dengan adikku. Aku ingin dia punya teman dirumah."
-    mc "Aku ingin bermain, tertawa, menonton film bersama adikku dirumah."
-    mc "Aku akan mengorbankan apapun untuk adikku, karena dia adalah anggota keluargaku satu-satunya... "
-    mc "Aku akan mengorbankan apapun untuk adikku, karena dia adalah anggota keluargaku satu-satunya... dan aku harus menjaga dia layaknya seorang kakak yang sayang pada adiknya."
-
-    return
-
-label tidak_pindah_sekolah:
-    "Aku tidak ingin kehilangan sahabat-sahabatku, aku masih membutuhkan mereka."
-    "Mereka adalah orang-orang yang bisa menghilangkan awan hitam di dalam pikiranku."
-    "Mereka adalah orang-orang yang bisa membuka mataku untuk melihat apa yang ada di dunia ini."
-    "Mereka adalah orang-orang yang berusaha untuk meyakinkan diriku bahwa dunia ini masih memiliki harapan."
-    "Aku akan mencoba untuk bisa berada didekat sahabat-sahabatku."
-    "Maaf adik, mungkin kakakmu ini akan pulang terlambat... lagi"
 
 # Chapter 1
 label chapter1:
@@ -105,18 +200,18 @@ label chapter1:
     "Aku berdiri tepat di depan papan pengumuman sekolah yang dimana orang-orang yang tidakku kenal juga berkumpul di satu tempat"
     "untuk mencari namanya masing-masing dan mengetahui di kelas mana mereka akan ditempatkan begitupula dengan diriku"
 
-    mc "(Aku harap aku bisa bersama dengan teman-temanku lagi.)"
+        mc "(Aku harap aku bisa bersama dengan teman-temanku lagi.)"
     
     show kay biasa with dissolve:
       xzoom 0.5 yzoom 0.5
       xalign 0.5
 
-    k "Yo Arda"
-    mc "Ah! Kay. Kirain siapa, nyari kelas juga lu?"
+    k "Yo   mc
+        mc "Ah! Kay. Kirain siapa, nyari kelas juga lu?"
     k "Yaiyalah, lu sendiri dah nemu kelas lu?"
-    mc "Belum, ini lagi nyari nih"
+        mc "Belum, ini lagi nyari nih"
     k "Hohhh..."
-    mc "...."
+        mc "...."
     k "...."
 
     show kay biasa at slightLeftDown
@@ -134,35 +229,35 @@ label chapter1:
     with move
 
     l "Kelas 12-A"
-    mc "?"
+        mc "?"
     k "Widih... dah ketemu aja kelas lu, Lar"
     l "Ya karena Lara pinter, Lara nyari dari kelas yang paling awal, tinggi, bagus, yang pastinya diawali dengan huruf A"
     k "Sombong amat"
     l "Hehehe"
-    mc "Perasaan dari tadi Lara gak ada di sini deh"
-    l "Lara ke sini daritadi sama si Kay, udah itu langsung nyari kelas Lara. Emangnya Arda sama Kay, malah ngobrol doang makanya gak ketemu-ketemu kelasnya"
-    mc "Eh... Hehehe..."
+        mc "Perasaan dari tadi Lara gak ada di sini deh"
+    l "Lara ke sini daritadi sama si Kay, udah itu langsung nyari kelas Lara. Emangnya mcsama Kay, malah ngobrol doang makanya gak ketemu-ketemu kelasnya"
+        mc "Eh... Hehehe..."
     k "Itu namanya teman Lar, kalau berjumpa sama teman itu ada bagusnya menyapa."
-    k "Emangnya lu? Udah tahu ngeliat si Arda, bukannya nyapa dulu kek atau apa dulu kek, malah langsung nyari kelas sendiri."
+    k "Emangnya lu? Udah tahu ngeliat si    mc bukannya nyapa dulu kek atau apa dulu kek, malah langsung nyari kelas sendiri."
     k "Tck tck tck, pinter doang, beradab kagak"
     l "!"
-    mc "(Uhhh, kena itu kata-katanya si Kay)"
+        mc "(Uhhh, kena itu kata-katanya si Kay)"
     l "Iya-iya maaf."
     l "Gimana Kay sama MC udah ketemu kelasnya?"
     k "Belum, ini lagi nyari di kelas 12 wehhhhh... Ternyata aku di kelas 12-C"
     l "Berarti beda 2 kasta Lara sama Kay, hehehe"
-    k "Sembarangan lu. Lu gimana Arda, dapet kelas berapa?"
-    mc "Masih nyari nih"
+    k "Sembarangan lu. Lu gimana    mc dapet kelas berapa?"
+        mc "Masih nyari nih"
     k "..."
     l "..."
-    mc "..."
+        mc "..."
     k "..."
     l "....."
-    mc "Ketemu nih, kelas 12-F"
+        mc "Ketemu nih, kelas 12-F"
     k "Wihhh, jauh juga lu sama gue kelasnya"
-    mc "Gue sekelas sama si Benny pula, hahaha"
+        mc "Gue sekelas sama si Benny pula, hahaha"
     k "Buset dah, enak banget punya temen gak kek gue"
-    mc "hahahaha"
+        mc "hahahaha"
     l "...."
     k "Diem mulu Lar, kenapa sih?"
     l "Ah, enggak kok"
@@ -174,24 +269,24 @@ label chapter1:
     s2 "Asuuuu"
     s1 "HIHHHHHH"
     k "Ait ait ait"
-    mc "Ugh"
+        mc "Ugh"
     l "AAaaaAAa!"
     k "Udah gila, itu speaker belum juga diganti sama sekolah"
-    mc "Ya mau gimana lagi, Pak Torresnya ngirit duit sekolah buat nanti event"
+        mc "Ya mau gimana lagi, Pak Torresnya ngirit duit sekolah buat nanti event"
     k "Event apaan?"
-    mc "Event apa ya? Kayak turnamen gitulah eventnya"
+        mc "Event apa ya? Kayak turnamen gitulah eventnya"
     k "Hohhh, naruhodo!"
-    mc "Naruto?"
+        mc "Naruto?"
     k "Naruhodo, artinya mengerti di bahasa Jepang "
     l "Si Kay kan wibu. Dia pernah ngomong kalau waifunya lebih cantik dari dunia nyata, fufufu"
-    mc "Hihhh, wibu sekarang lu ya. Ga habis thinking sih, gila gila"
+        mc "Hihhh, wibu sekarang lu ya. Ga habis thinking sih, gila gila"
     l "Udah itu aku kasih waifu dia gimana tampilannya di dunia nyata, dia malah ketakutan gara-gara matanya kebesaran, fufufu"
     k "Anzinggg, anzinggg.."
     l "Fufufu, yaudah aku mau ke kelas dulu ya"
-    mc "Ohhh... Yaudah, gue mau ke kelas dulu ya"
+        mc "Ohhh... Yaudah, gue mau ke kelas dulu ya"
     k "[sigh] Yoweslah gue juga mau ke kelas, bye"
     l "Dah"
-    mc "Bye"
+        mc "Bye"
 
     "Aku pun mulai jalan ke kelasku yang berada di lantai 2, karena semua kelas 12 berada di lantai 2."
     "Setelah mencari kelasku, akhirnya aku menemukannya."
@@ -231,13 +326,13 @@ label chapter1:
 
     "Mereka gak mikir dulu apa sebelum bicara, mana bacotannya ga baik, di depan si cewek pula"
 
-    s8 "Yo Arda, sehat?"
-    mc "Sehat (Huh, siapa dia?)"
+    s8 "Yo  mc sehat?"
+        mc "Sehat (Huh, siapa dia?)"
     s8 "Si Lara gak sama lu?"
-    mc "Enggak kok, beda kelas"
+        mc "Enggak kok, beda kelas"
     s8 "Hohhh, yaudah. Take care Da"
-    mc "Ok, you too"
-    mc "barusan siapa ?"
+        mc "Ok, you too"
+        mc "barusan siapa ?"
 
     "Tak lama gurupun masuk ke kelas..."
     "Bersama Benny yang sedang loncat kodok..."
@@ -246,7 +341,7 @@ label chapter1:
 
     pg "Ya, sudah. Silahkan cari tempat dudukmu"
     b "Argh... baik pak"
-    mc "Oy, sini Ben. Sebelah gue kosong"
+        mc "Oy, sini Ben. Sebelah gue kosong"
     b "Wih, ok ok"
     pg "Halo, nama bapak Nadi. Sebelumnya kita lebih baik memperkenalkan diri dulu karena kita berdatangan dari kelas yang berbeda."
     pg "Hmmm kita mulai dari sana "
@@ -254,20 +349,20 @@ label chapter1:
 
     s8 "Nama saya----"
     b "{i} oy, lu tau gak kalau cewek yang di belakang ngeliatin lu daritadi {/i}  "
-    mc "Huh? (huh?)"
+        mc "Huh? (huh?)"
     
     "Heh, entah kenapa hatiku berdebar-debar"
     "Apa maksud dari senyuman itu?"
     "Apakah dia menyukaiku? "
     "Hahaha, aku tau itu hanyalah senyum sapaan. Senyuman itu akan menjadi koleksi di memoriku"
 
-    b "Oy Arda"
-    mc "Huh?"
-    pg "Ekhm, Arda... darimana asal kelasnya?"
-    mc "Ah! Arda dari kelas 11-D"
+    b "Oy   mc
+        mc "Huh?"
+    pg "Ekhm,   mc.. darimana asal kelasnya?"
+        mc "Ah! mcdari kelas 11-D"
     pg "Oook, lanjut"
     b "Malah bengong lu disuruh ngenalin diri"
-    mc "Sorry sorry, hehehe"
+        mc "Sorry sorry, hehehe"
     
     "Pengenalan diri terus berlanjut"
     "Sampai..."
@@ -286,22 +381,22 @@ label chapter1:
     "Waktu kelaspun berakhir dengan bunyinya bel"
     "Murid-murid pun keluar dari kelasnya"
     
-    pg "Arda, kemari sebentar!"
-    mc "Ah, iya"
+    pg "    mc kemari sebentar!"
+        mc "Ah, iya"
     pg "Si Lara sama Kay gak sekelas ya?"
-    mc "Iya pak"
+        mc "Iya pak"
     pg "Ohhh, untungnya masih ada si Benny"
-    mc "Iya pak, hehe"
-    b "Arda, mau pulang bareng sama si Lara, Kay gak?"
-    mc "Iya"
+        mc "Iya pak, hehe"
+    b " mc mau pulang bareng sama si Lara, Kay gak?"
+        mc "Iya"
     b "Yowes, gue nunggu di depan gerbang"
 
     "Murid-murid sudah banyak yang keluar dari kelas"
     "Tinggal tesisa aku, dan pak guru"
 
-    pg "Arda, bapak tahu kalau kamu itu hidup sendiri sama adikmu yang sakit. Bapak pengen nanya ke kamu"
+    pg "    mc bapak tahu kalau kamu itu hidup sendiri sama adikmu yang sakit. Bapak pengen nanya ke kamu"
     pg "mungkin rasanya gak sopan dan jadi bikin situasi aneh"
-    mc "...."
+        mc "...."
     pg "Kamu mau jadi anak bapak gak? Bukan anak murid, tapi anak aja. "
     pg "Sampai disini kamu mengerti ucapan bapak gak? Takutnya gak ngerti"
 
@@ -311,20 +406,20 @@ label chapter1:
 
     pg "Jadi gimana? Kamu juga boleh jawab nanti kok, pertanyaannya emang membuat kamu memilih jalan hidup kamu yang baru sih"
     pg "Jadi kamu---"
-    mc "Maaf pak, saya gabisa"
-    mc "Saya kasihan sama adik saya yang harus beradaptasi dengan suasana yang baru"
-    mc "dan juga rumah yang kami tinggali nanti gak keurus"
+        mc "Maaf pak, saya gabisa"
+        mc "Saya kasihan sama adik saya yang harus beradaptasi dengan suasana yang baru"
+        mc "dan juga rumah yang kami tinggali nanti gak keurus"
     pg "Ahhh, ok ok. Maaf ya kalo sekiranya bikin suasana hati gak enak"
     pg "Jangan lupa kasih tahu adik kamu ya, soalnya ini juga demi dia"
     pg "Siapa tahu dengan jawaban dia kamu berubah pikiran"
-    mc "Ah, iya gak apa-apa pak ({i}bangsat...{/i})"
+        mc "Ah, iya gak apa-apa pak ({i}bangsat...{/i})"
     pg "Kalau begitu bapak pamit duluan ya"
-    mc "Ah, iya pak"
+        mc "Ah, iya pak"
 
     "Dan dia keluar"
     "Manusia yang kelihatannya baru tahu kalau adikku menderita"
 
-    mc "[inhales] Hufffff..... [exhales] haaaaaa...."
+        mc "[inhales] Hufffff..... [exhales] haaaaaa...."
 
     "Akupun membuka pintu kelas dan berjalan menuju gerbang sekolah"
 
@@ -344,29 +439,29 @@ label chapter1:
     l "Lara pengen main"
     k "Huh?! Tumben lu mau main!"
     b "Yoi, setauku kamu suka baca novel kan"
-    mc "Iya, sama nonton anime"
+        mc "Iya, sama nonton anime"
     k "!"
     l "[blush] AHAHAHA! Iyaya..."
     k "Jadi yang ngejek wibu-wibu tuh ternyata wibu juga ya...."
     l "Huh? Lara mah udah jarang-jarang nonton anime, yang lagi Lara ikutin sekarang cuman AoT season 4 aja wekkk"
-    mc "Lah bukannya lu mara---"
-    b "Arda! Gimana nying main PES, jadi ga?"
-    mc "Huh?"
+        mc "Lah bukannya lu mara---"
+    b " mc Gimana nying main PES, jadi ga?"
+        mc "Huh?"
     l "I-iya main PES dirumah kamu, kan pernah ngomong!"
-    mc "Kapan?"
+        mc "Kapan?"
     k "I-iya main PES dirumah kamu, kan pernah ngomong!"
-    mc "Yoi"
+        mc "Yoi"
     k "Hohohohoho"
     l "Arghhhhh, iya iya Lara juga wibu.."
     k "Hihihi, gitu dong"
-    mc "Mau main PES dirumah gue gak?"
+        mc "Mau main PES dirumah gue gak?"
     b "Anying, beneran dong ngajakin"
     l "Harghhhhh, Ardaaa"
     k "Ayolah, gasabar mau bantai-bantai pakai ipul"
     b "Sok banget, yang 5-0 lawan emyu tuh siapa ya? Huh? Huh?"
     l "Hahahaha"
     k "Asu lo, liat aja nanti gue bantai lu pada!"
-    mc "[tersenyum]"
+        mc "[tersenyum]"
 
     "Akankah senyuman ini berakhir?"
     "Akankah hubungan ini berakhir?"
@@ -380,51 +475,51 @@ label chapter1:
 
     k "Yosh, gue lewat sini. Bye "
     b "Yoi gue juga, bye "
-    mc "Bye"
+        mc "Bye"
     l "Bye"
 
     "Benny dan Kay pun meninggalkan kami berdua di pertigaan jalan"
     "Aku dan Lara pun mulai berjalan lagi di jalan yang sama"
 
     l "Udah lama kita berempat gak pulang bareng"
-    mc "Iya, udah 2 minggu gara-gara liburan"
+        mc "Iya, udah 2 minggu gara-gara liburan"
     l "Iya yah "
-    mc "Lar, panas?"
+        mc "Lar, panas?"
     l "Huh? panas?"
-    mc "Itu merah muka kau "
+        mc "Itu merah muka kau "
     l "Ah-haha, Aku gak apa-apa kok"
-    mc "Huh? Merah gitu kok gak apa-apa"
+        mc "Huh? Merah gitu kok gak apa-apa"
     l "Ah, iya aku gak kenapa-napa kok"
-    mc "Hmmm"
-    l "Ah, dah sampe. Aku duluan Arda, bye "
-    mc "Ah, bye"
+        mc "Hmmm"
+    l "Ah, dah sampe. Aku duluan    mc bye "
+        mc "Ah, bye"
 
     "Rumah kami bersebelahan"
 
-    mc "Hahhhhhh, sampe juga"
+        mc "Hahhhhhh, sampe juga"
 
     "Rumahku"
     "Rumah adikku"
     "Rumah orang tuaku"
     "Rumah keluargaku"
 
-    mc "Hahhh, pulang"
+        mc "Hahhh, pulang"
 
     "Aku pun membuka sepatu dan langsung pergi ke kamar adikku"
 
-    mc "Yo, ngapain aja cuy"
+        mc "Yo, ngapain aja cuy"
     h "Biasa, main PS sama belajar"
-    mc "Wohhh, sekarang belajar jadi kebiasaan kamu ya?"
+        mc "Wohhh, sekarang belajar jadi kebiasaan kamu ya?"
     h "Yoi dong"
-    mc "Damn, beneran belajar"
+        mc "Damn, beneran belajar"
     h "Hehehehehe..."
-    mc "Obat udah diminum?"
+        mc "Obat udah diminum?"
     h "Iya kak, gausah di ingetin lagi napa. Aku juga ngerti kok"
-    mc "Ahaha, ok ok"
+        mc "Ahaha, ok ok"
     h "Sekolah kakak gimana?"
-    mc "You knowlah, cuman ngasih info doang"
+        mc "You knowlah, cuman ngasih info doang"
     h "Hih, ternyata yang gak belajar situ toh. Hahahaha"
-    mc "Kampret bisa aja"
+        mc "Kampret bisa aja"
 
     "[flashback]"
     pg "Kamu mau jadi anak bapak gak?"
@@ -432,11 +527,11 @@ label chapter1:
     pg "Jangan lupa kasih tahu adik kamu ya, soalnya ini juga demi dia. "
     pg "Siapa tahu dengan jawaban dia kamu berubah pikiran"
 
-    mc "Harris..."
+        mc "Harris..."
     h "Hm?"
-    mc "Enggak jadi"
+        mc "Enggak jadi"
     h "Hah, gajelas"
-    mc "Hehehe, yaudah kakak mau ke kamar ya"
+        mc "Hehehe, yaudah kakak mau ke kamar ya"
     h "Oke"
 
     "Akupun jalan ke kamar sebelah, yaitu kamarku sendiri"
@@ -444,7 +539,7 @@ label chapter1:
     "Masih memakai baju sekolah"
     "Aku berbaring dikasur"
 
-    mc "Besokk.."
+        mc "Besokk.."
     "Besok mereka akan datang"
     "Mereka sahabat-sahabatku"
 
