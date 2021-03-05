@@ -1,184 +1,39 @@
-Fri Mar  5 02:43:39 2021
+Fri Mar  5 13:46:48 2021
 Windows-10-10.0.18362
 Ren'Py 7.4.0.1167
  
 
-Bootstrap to the start of init.init took 0.09s
+Bootstrap to the start of init.init took 0.10s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.17s
+Loading script took 0.27s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 63: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    mc "(Siapa ini? Cuman ada nomornya doang, apa belum aku simpan ya nomornya? Atau mungkin nomor baru Mamah? Karena dia pernah bilang mau ganti provider) jawab telpon"
-    ^
-
-File "game/script.rpy", line 209: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    k "Yo   mc
-        mc "Ah! Kay. Kirain siapa, nyari kelas juga lu?"
-             ^
-        k "Yaiyalah, lu sendiri dah nemu kelas lu?"
-        mc "Belum, ini lagi nyari nih"
-        k "Hohhh..."
-        mc "...."
-        k "...."
-    
-        show kay biasa at slightLeftDown
-          
-        with move
-    
-        show lara biasa at slightRight:
-          xzoom 0.5 yzoom 0.5
-          xalign 0.5
-          yalign 0.0
-        with dissolve
-    
-        show lara biasa at slightRightDown:
-          xalign 0.8 
-        with move
-    
-        l "Kelas 12-A"
-        mc "?"
-        k "Widih... dah ketemu aja kelas lu, Lar"
-        l "Ya karena Lara pinter, Lara nyari dari kelas yang paling awal, tinggi, bagus, yang pastinya diawali dengan huruf A"
-        k "Sombong amat"
-        l "Hehehe"
-        mc "Perasaan dari tadi Lara gak ada di sini deh"
-        l "Lara ke sini daritadi sama si Kay, udah itu langsung nyari kelas Lara. Emangnya mcsama Kay, malah ngobrol doang makanya gak ketemu-ketemu kelasnya"
-        mc "Eh... Hehehe..."
-        k "Itu namanya teman Lar, kalau berjumpa sama teman itu ada bagusnya menyapa."
-        k "Emangnya lu? Udah tahu ngeliat si    mc bukannya nyapa dulu kek atau apa dulu kek, malah langsung nyari kelas sendiri."
-        k "Tck tck tck, pinter doang, beradab kagak"
-        l "!"
-        mc "(Uhhh, kena itu kata-katanya si Kay)"
-        l "Iya-iya maaf."
-        l "Gimana Kay sama MC udah ketemu kelasnya?"
-        k "Belum, ini lagi nyari di kelas 12 wehhhhh... Ternyata aku di kelas 12-C"
-        l "Berarti beda 2 kasta Lara sama Kay, hehehe"
-        k "Sembarangan lu. Lu gimana    mc dapet kelas berapa?"
-        mc "Masih nyari nih"
-        k "..."
-        l "..."
-        mc "..."
-        k "..."
-        l "....."
-        mc "Ketemu nih, kelas 12-F"
-        k "Wihhh, jauh juga lu sama gue kelasnya"
-        mc "Gue sekelas sama si Benny pula, hahaha"
-        k "Buset dah, enak banget punya temen gak kek gue"
-        mc "hahahaha"
-        l "...."
-        k "Diem mulu Lar, kenapa sih?"
-        l "Ah, enggak kok"
-        k "Yaudah kita ke kantin dulu yuk sebelum masuk kelas"
-        spk "{i}Cek cek, cek 1 2 3. {/i}"
-        spk "{i}Bagi siswa-siswi diharapkan masuk ke kelasnya masing-masing bagi yang telah menemukannya. {/i}"
-        spk "{i}Untuk yang belum menemukannya, segera temukan kelas kalian. Terimakasih, NGINGGGGGGGGG!!!{/i}"
-        s1 "Aduhhh"
-        s2 "Asuuuu"
-        s1 "HIHHHHHH"
-        k "Ait ait ait"
-        mc "Ugh"
-        l "AAaaaAAa!"
-        k "Udah gila, itu speaker belum juga diganti sama sekolah"
-        mc "Ya mau gimana lagi, Pak Torresnya ngirit duit sekolah buat nanti event"
-        k "Event apaan?"
-        mc "Event apa ya? Kayak turnamen gitulah eventnya"
-        k "Hohhh, naruhodo!"
-        mc "Naruto?"
-        k "Naruhodo, artinya mengerti di bahasa Jepang "
-        l "Si Kay kan wibu. Dia pernah ngomong kalau waifunya lebih cantik dari dunia nyata, fufufu"
-        mc "Hihhh, wibu sekarang lu ya. Ga habis thinking sih, gila gila"
-        l "Udah itu aku kasih waifu dia gimana tampilannya di dunia nyata, dia malah ketakutan gara-gara matanya kebesaran, fufufu"
-        k "Anzinggg, anzinggg.."
-        l "Fufufu, yaudah aku mau ke kelas dulu ya"
-        mc "Ohhh... Yaudah, gue mau ke kelas dulu ya"
-        k "[sigh] Yoweslah gue juga mau ke kelas, bye"
-        l "Dah"
-        mc "Bye"
-    
-        "Aku pun mulai jalan ke kelasku yang berada di lantai 2, karena semua kelas 12 berada di lantai 2."
-        "Setelah mencari kelasku, akhirnya aku menemukannya."
-        "Terpampang jelas huruf F di sebelah 12 yang tertempel di tembok, aku pun memasuki kelasnya."
-    
-        "Murid lelaki, atau 'teman kelas'-ku mulai berlomba-lomba untuk menempati meja atau kursi dengan tas mereka untuk mencap bahwa mejanya adalahmeja mereka,"
-        "seperti kucing yang mengencingi area dan mencap area itu menjadi miliknya."
-        "Aku berjalan dan duduk di barisan ke-3. "
-        "Awalnya aku ingin duduk di barisan terakhir, cuman sudah penuh, yang tesisa hanyalah barisan ke-3."
-        "Akupun duduk di meja barisan ke-3,"
-        "Aku tidak mengeluarkan alat tulis karena pada hari pertama sekolah, guru hanya akan menyampaikan info dan memulangkan kelas begitu saja."
-        "Aku lupa membawa hpku, jadi yang kulakukan hanyalah menundukan kepala dan menguping perbincangan kelas. Walaupun terdengar tidak baik,"
-        "Hanya itulah cara agar menghilangkan kebosananku di kelas (walau sebenarnya aku selalu merasa bosan dimanapun dan kapanpun)"
-    
-        s2 "Ihhh, si Kim-Jong-Cin keluar dari BOWOK udah itu ngeluarin singlenya, namanya {b} Yes Yes Yes {/b}"
-        s3 "Masa sih?! Aku baru tau kalau---"
-    
-        "K-pop... ada cewek yang suka sama J-pop gak ya?"
-    
-        s3 "Nihhh, ngocok yang bener tuh jangan pelan-pelan"
-        s4 "Kenceng ya ngocoknya?"
-        s3 "Yoi, kalo lu mau jadi bartender harus kenceng ngocoknya. Jadi si rasanya itu bisa ke campur lebih cepat"
-        "Hahhh, aku kira apaan"
-        s5 "Ahhh, gapapa kok. Aku bisa di sebelah, hehehe"
-        s4 "Makasih..."
-    
-        "Masih rebutan meja?"
-        s6 "Busettt, cewek aja lu deketin wahahahaha"
-        s7 "Bosen menjomblo si Terry"
-        t "Yaiyalah bego, masa gue deketin cowok."
-        t "Lagian nih ya, gue cuman bersikap baik ke dia"
-        t "Kalau bersikap baik ke cewek dikira kayak yang naksir sama ceweknya, berarti lu itu tidak berpendidikan (tidak berpendidikan, anjayyyyy keren kata-kata gue)"
-        s6 "Kalem man, becanda. Oh iya, lu kan suka sama anak kecil wahahahaha"
-        s7 "Tolol lu kakakakakak"
-        t "Hadehhh, gausah dengerin mereka. Mereka emang punya penyakit jiwa"
-        s4 "Ah, ok... haha..."
-    
-        "Mereka gak mikir dulu apa sebelum bicara, mana bacotannya ga baik, di depan si cewek pula"
-    
-        s8 "Yo  mc sehat?"
-        mc "Sehat (Huh, siapa dia?)"
-        s8 "Si Lara gak sama lu?"
-        mc "Enggak kok, beda kelas"
-        s8 "Hohhh, yaudah. Take care Da"
-        mc "Ok, you too"
-        mc "barusan siapa ?"
-    
-        "Tak lama gurupun masuk ke kelas..."
-        "Bersama Benny yang sedang loncat kodok..."
-    
-        "Hahhh, Benny... Kenapa lu harus telat di hari pertama"
-    
-        pg "Ya, sudah. Silahkan cari tempat dudukmu"
-        b "Argh... baik pak"
-        mc "Oy, sini Ben. Sebelah gue kosong"
-        b "Wih, ok ok"
-        pg "Halo, nama bapak Nadi. Sebelumnya kita lebih baik memperkenalkan diri dulu karena kita berdatangan dari kelas yang berbeda."
-        pg "Hmmm kita mulai dari sana "
-        pg "udah itu kesebelah ya? Perkenalkannya cukup nama dan asal kelas saja, mulai"
-    
-        s8 "Nama saya----"
-        b "{i} oy, lu tau gak kalau cewek yang di belakang ngeliatin lu daritadi {/i}  "
-         mc "Huh? (huh?)"
-        
-        "Heh, entah kenapa hatiku berdebar-debar"
-        "Apa maksud dari senyuman itu?"
-        "Apakah dia menyukaiku? "
-        "Hahaha, aku tau itu hanyalah senyum sapaan. Senyuman itu akan menjadi koleksi di memoriku"
-    
-        b "Oy   mc
-
-File "game/script.rpy", line 362: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    mc "Ah! mcdari kelas 11-D"
-    ^
-
-File "game/script.rpy", line 399: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    mc "...."
-    ^
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\yuyu\\AppData\\Roaming/RenPy/backups\\ijustmetyou':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Interface start took 0.11s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.12s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
 
 primary display bounds: (0, 0, 1280, 768)
 swap interval: 1 frames
@@ -516,4 +371,4 @@ Texture testing:
 Screen sizes: virtual=(1280, 720) physical=(1178, 663) drawable=(1178, 663)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 0.866501808167s
+Total time until interface ready: 1.49150109291s
