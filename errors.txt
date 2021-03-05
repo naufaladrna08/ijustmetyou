@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/script.rpy", line 193: choice menuitem expects a non-empty block.
     "Jadilah pahlawan" :
                         ^
 
 Ren'Py Version: Ren'Py 7.4.0.1167
 Fri Mar  5 13:46:24 2021
+=======
+File "game/script.rpy", line 121: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    w "Huh?  mc kita bisa membicarakan ini. Kau bisa berbicara denganku, lepaskanlah semua isi di hatimu. Aku akan mendengarkannya”
+        mc "Tidak ada yang bisa dibicarakan lagi, w Semuanya terdengar dengan jelas, terimakasih atas kabarnya. Aku ingin bergegas ke rumah untuk bertemu dengan adikku [berjalan menuju jembatan]"
+             ^
+        w "Baiklah.  mc jika ada apa-apa, telepon nomor yang akan aku SMS-kan. Jaga dirimu baik-baik, tentunya dengan adikmu”
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Fri Mar  5 11:12:13 2021
+>>>>>>> 84b014248a41d0f68448d9fc08df3529f9b87786
