@@ -2,7 +2,7 @@
 # cnth. image eileen happy = "eileen_happy.png"
 
 # Deklarasikan karakter yang digunakan di game.
-define  mc = Character(' mc)
+define mc = Character('mc')
 define spk = Character('Speaker')
 define s1 = Character('Siswa 1')
 define s2 = Character('Siswa 2')
@@ -19,8 +19,8 @@ define k = Character('Kay')
 define t = Character('Terry')
 define h = Character('Harris')
 define b = Character('Benny')
-define tdk = character ('?')
-define w = character ('w)
+define tdk = Character ('Anonim')
+define w = Character ('w')
 
 transform slightLeft:
     xalign 0.25
@@ -53,12 +53,12 @@ transform toRightt0:
 # Game dimulai disini.
 # Chapter 0
 label start:
-   scene bg rambu
-   "Di malam hari yang dingin, aku pulang berjalan menuju ke rumah orang tuaku setelah meninggalkan stasiun kereta"
-   "Aku berjalan tepat di jembatan dengan pemandangan yang menakjubkan di sebelahku."
-   "Langit-langit gelap yang indah, udara yang sejuk menyelimuti leherku, suara arus sungai di bawah yang sangat menenangkan, rasanya aku jadi ingin tinggal di jembatan."
+    scene bg rambu
+    "Di malam hari yang dingin, aku pulang berjalan menuju ke rumah orang tuaku setelah meninggalkan stasiun kereta"
+    "Aku berjalan tepat di jembatan dengan pemandangan yang menakjubkan di sebelahku."
+    "Langit-langit gelap yang indah, udara yang sejuk menyelimuti leherku, suara arus sungai di bawah yang sangat menenangkan, rasanya aku jadi ingin tinggal di jembatan."
 
-   "Bzzzzz Bzzzzz! Bzzzzz Bzzzzz!"
+    "Bzzzzz Bzzzzz! Bzzzzz Bzzzzz!"
 
     mc "(Siapa ini? Cuman ada nomornya doang, apa belum aku simpan ya nomornya? Atau mungkin nomor baru Mamah? Karena dia pernah bilang mau ganti provider) jawab telpon"
     mc "Halo?"
@@ -72,7 +72,7 @@ label start:
     mc "[melihat jembatan dan arus sungai yang begitu kencang] Tidak ada"
     tdk "Ardavelt Dovinier. Sekarang anda berada dimana?"
     mc "Di trotoar (di trotoar jembatan, sebelahku ada sungai. Tidak salahkan?)"
-    tdk "Saya mohon, jangan membohongi saya,     mc
+    tdk "Saya mohon, jangan membohongi saya, mc"
     mc "Saya gak mungkin berbohong, asli kok saya ada di trotoar"
     tdk "Kenapa aku mendengarkan ada suara arus sungai yang kencang? Apakah anda berada di atas jembatan?"
     mc "Tidak, saya berada di atas trotoar"
@@ -80,9 +80,9 @@ label start:
     mc "Aghh?!"
     mc "...."
     mc "Maaf, saya berada diatas jembatan dan betul ada sungai dibawah jembatan dengan arus yang kencang"
-   tdk "Hahhh... Saya mohon maaf atas perilaku saya yang sangat memalukan. Mungkin ini bawaan dari perang Nagini"
+    tdk "Hahhh... Saya mohon maaf atas perilaku saya yang sangat memalukan. Mungkin ini bawaan dari perang Nagini"
     mc "Gak masalah, jadi... ada apa anda menelpon saya?"
-   tdk "Bisakah anda berbicara dengan saya sambil berjalan?"
+    tdk "Bisakah anda berbicara dengan saya sambil berjalan?"
     mc "Bisa [mcmulai berjalan]"
     w "Sebelumnya saya mohon maaf, nama saya Wozasky Montrym, anda bisa memanggil saya dengan w Saya adalah rekrutan baru dari rumah sakit Ciruka"
     mc "Wozasky ya, kayak nama orang cyka blyat gitu"
@@ -118,29 +118,29 @@ label start:
     w "Pengemudi yang menabrak dari samping. Kedua orang tuamu adalah penumpang dimobil Pak Nadi."
     w "Saat lampu berwarna hijau, mereka jalan, akan tetapi... mobil pickup melewati lampu merah dan melaju sangat cepat dari samping, dan menabrak mereka bertiga. Pak Nadi dengan ajaib selamat, tapi orang tuamu... maaf, tidak bisa kami selamatkan..."
     mc "Terkadang dunia ini tidak adil, tapi kau harus menerimanya dan terus berdiri"
-    w "Huh?  mc kita bisa membicarakan ini. Kau bisa berbicara denganku, lepaskanlah semua isi di hatimu. Aku akan mendengarkannya”
+    w "Huh?  mc kita bisa membicarakan ini. Kau bisa berbicara denganku, lepaskanlah semua isi di hatimu. Aku akan mendengarkannya"
     mc "Tidak ada yang bisa dibicarakan lagi, w Semuanya terdengar dengan jelas, terimakasih atas kabarnya. Aku ingin bergegas ke rumah untuk bertemu dengan adikku [berjalan menuju jembatan]"
-    w "Baiklah.  mc jika ada apa-apa, telepon nomor yang akan aku SMS-kan. Jaga dirimu baik-baik, tentunya dengan adikmu”
+    w "Baiklah.  mc jika ada apa-apa, telepon nomor yang akan aku SMS-kan. Jaga dirimu baik-baik, tentunya dengan adikmu"
     mc "Terimakasih w[menutup panggilan]"
     mc "bangsat..."
 
-   "Tanpa habis pikir, aku pergi ke jembatan yang aku lewati"
-   "Aku berjalan"
-   "Berjalan..."
-   "Terus berjalan..."
-   "Bzzzzz Bzzzzz!"
-   "Pesan, dari Wozky. Heh"
-   "Satu mobil melewatiku, itu mobil pertama yang kulihat di jembatan ini. Bukankah jembatan ini terasa sangat sepi?"
-   "Sama seperti jiwa ini..."
+    "Tanpa habis pikir, aku pergi ke jembatan yang aku lewati"
+    "Aku berjalan"
+    "Berjalan..."
+    "Terus berjalan..."
+    "Bzzzzz Bzzzzz!"
+    "Pesan, dari Wozky. Heh"
+    "Satu mobil melewatiku, itu mobil pertama yang kulihat di jembatan ini. Bukankah jembatan ini terasa sangat sepi?"
+    "Sama seperti jiwa ini..."
 
-   "Kali ini aku berdiri tepat berada di tempat, di mana aku merasakan hawa ini lagi"
-   "Sekarang aku melakukaknnya lagi, melihat arus sungainya lagi"
-   "Bulannya sangat indah, aku masih berpikir bagaimana bulan bisa memiliki cahaya. "
-   "Apakah itu dari matahari? Betapa bodohnya aku, tidak tahu sumber cahaya bulan"
-   "Angin malam masih menyelimuti leherku, mukaku, tanganku, dan telapak tanganku. "
-   "Angin ini seakan-akan menarikku kebawah... kebawah jembatan ini..."
-   "Aku melihatnya, arus sungai itu. Sangat mendukung untuk menyeret manusia dengan cepat hingga hilang dari dunia ini"
-   "Bukankah ini bagus. Bahkan alam mendukungku untuk melakukan ini, hahaha"
+    "Kali ini aku berdiri tepat berada di tempat, di mana aku merasakan hawa ini lagi"
+    "Sekarang aku melakukaknnya lagi, melihat arus sungainya lagi"
+    "Bulannya sangat indah, aku masih berpikir bagaimana bulan bisa memiliki cahaya. "
+    "Apakah itu dari matahari? Betapa bodohnya aku, tidak tahu sumber cahaya bulan"
+    "Angin malam masih menyelimuti leherku, mukaku, tanganku, dan telapak tanganku. "
+    "Angin ini seakan-akan menarikku kebawah... kebawah jembatan ini..."
+    "Aku melihatnya, arus sungai itu. Sangat mendukung untuk menyeret manusia dengan cepat hingga hilang dari dunia ini"
+    "Bukankah ini bagus. Bahkan alam mendukungku untuk melakukan ini, hahaha"
 
     mc "Bagaimana rasanya jika aku melompat dari jembatan ini?"
 
@@ -179,14 +179,14 @@ label start:
     "tolong..."
     "Cukup seorang saja... tolong..."
 
-    
+
     mc "Nangis? Haha-- hiks..."
     mc "Ibu... Ayah... kenapa..."
     mc "Kenapa disaat aku menginjakan tanah ini, kalian meninggalkanku..."
     mc "Kenapa..."
     mc "Nadi... Pak Nadi anjing... Si bajingan bawa-bawa orang tua gue cuman buat main-main! Gak ada kerjaan lain apa?! Emangnya gak punya temen yang lain selain Ayah sama Ibu gue?!"
     mc "bajingan..."
-    mc "one: “Beepbeepbeep, beeppp beeppp, beepbeepbeep, beeppp beeppp”
+    mc "one: “Beepbeepbeep, beeppp beeppp, beepbeepbeep, beeppp beeppp"
     mc "[matiin alarm] Udah habis ya..."
 
     
@@ -203,10 +203,10 @@ label chapter1:
     mc "(Aku harap aku bisa bersama dengan teman-temanku lagi.)"
     
     show kay biasa with dissolve:
-      xzoom 0.5 yzoom 0.5
-      xalign 0.5
+        xzoom 0.5 yzoom 0.5
+        xalign 0.5
 
-    k "Yo   mc
+    k "Yo   mc"
     mc "Ah! Kay. Kirain siapa, nyari kelas juga lu?"
     k "Yaiyalah, lu sendiri dah nemu kelas lu?"
     mc "Belum, ini lagi nyari nih"
@@ -349,17 +349,17 @@ label chapter1:
 
     s8 "Nama saya----"
     b "{i} oy, lu tau gak kalau cewek yang di belakang ngeliatin lu daritadi {/i}  "
-     mc "Huh? (huh?)"
+    mc "Huh? (huh?)"
     
     "Heh, entah kenapa hatiku berdebar-debar"
     "Apa maksud dari senyuman itu?"
     "Apakah dia menyukaiku? "
     "Hahaha, aku tau itu hanyalah senyum sapaan. Senyuman itu akan menjadi koleksi di memoriku"
 
-    b "Oy   mc
+    b "Oy   mc"
     mc "Huh?"
     pg "Ekhm,   mc.. darimana asal kelasnya?"
-     mc "Ah! mcdari kelas 11-D"
+    mc "Ah! mcdari kelas 11-D"
     pg "Oook, lanjut"
     b "Malah bengong lu disuruh ngenalin diri"
     mc "Sorry sorry, hehehe"
@@ -396,7 +396,7 @@ label chapter1:
 
     pg "    mc bapak tahu kalau kamu itu hidup sendiri sama adikmu yang sakit. Bapak pengen nanya ke kamu"
     pg "mungkin rasanya gak sopan dan jadi bikin situasi aneh"
-        mc "...."
+    mc "...."
     pg "Kamu mau jadi anak bapak gak? Bukan anak murid, tapi anak aja. "
     pg "Sampai disini kamu mengerti ucapan bapak gak? Takutnya gak ngerti"
 
