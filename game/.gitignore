@@ -2,3 +2,6 @@
 
 game/saves/
 game/cache/
+errors.txt
+logs.txt
+traceback.txt
