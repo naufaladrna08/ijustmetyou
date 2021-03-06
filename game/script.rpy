@@ -2,25 +2,25 @@
 # cnth. image eileen happy = "eileen_happy.png"
 
 # Deklarasikan karakter yang digunakan di game.
-define mc = Character('mc')
-define spk = Character('Speaker')
-define s1 = Character('Siswa 1')
-define s2 = Character('Siswa 2')
-define s3 = Character('Siswa 3')
-define s4 = Character('Siswa 4')
-define s5 = Character('Siswa 5')
-define s6 = Character('Siswa 6')
-define s7 = Character('Siswa 7')
-define s8 = Character('Siswa 8')
-define pg = Character("Pak Guru")
-define k2 = Character('Karina')
+define mc = Character('Arda', color="#ffffff")
+define spk = Character('Speaker', color="#2ecc71")
+define s1 = Character('Siswa 1', color="#e74c3c")
+define s2 = Character('Siswa 2', color="#e74c3c")
+define s3 = Character('Siswa 3', color="#e74c3c")
+define s4 = Character('Siswa 4', color="#e74c3c")
+define s5 = Character('Siswa 5', color="#e74c3c")
+define s6 = Character('Siswa 6', color="#e74c3c")
+define s7 = Character('Siswa 7', color="#e74c3c")
+define s8 = Character('Siswa 8', color="#e74c3c")
+define pg = Character("Pak Guru", color="#2ecc71")
+define k2 = Character('Karina', color="#e84393")
 define l = Character('Lara', color="#c8ffc8")
-define k = Character('Kay')
-define t = Character('Terry')
-define h = Character('Harris')
-define b = Character('Benny')
-define tdk = Character ('Anonim')
-define w = Character ('w')
+define k = Character('Kay', color="#f1c40f")
+define t = Character('Terry', color="#3498db")
+define h = Character('Harris', color="#3498db")
+define b = Character('Benny', color="#3498db")
+define tdk = Character ('Telepon', color="#3498db")
+define w = Character('Wozky', color="#3498db")
 
 transform slightLeft:
     xalign 0.25
@@ -60,19 +60,19 @@ label start:
 
     "Bzzzzz Bzzzzz! Bzzzzz Bzzzzz!"
 
-    mc "(Siapa ini? Cuman ada nomornya doang, apa belum aku simpan ya nomornya? Atau mungkin nomor baru Mamah? Karena dia pernah bilang mau ganti provider) jawab telpon"
+    mc "Jawab teelpon"
     mc "Halo?"
-    tdk "Halo, apakah ini dengan     mc"
-    mc "Nama mcbanyak, buk---"
+    tdk "Halo, apakah ini dengan Arda?"
+    mc "Nama Arda banyak, buk---"
     tdk "Ardavelt Dovinie"
     mc "Ya, itu saya. Ada apa?"
     tdk "Apakah mood dan mental anda sedang baik saat ini?"
-    mc "Ya, tentu saja. Aku akan bertemu dengan keluargaku dan sahabat-sahabatku lagi, mana mungkin mood dan mentalku buruk sekarang"
+    mc "Ya, tentu saja. Aku akan bertemu dengan keluargaku dan sahabat-sahabatku lagi, mana mungkin mood dan mentalku buruk sekarang?"
     tdk "Apakah tidak ada tempat yang membahayakan nyawa?"
-    mc "[melihat jembatan dan arus sungai yang begitu kencang] Tidak ada"
+    mc "Tidak ada"
     tdk "Ardavelt Dovinier. Sekarang anda berada dimana?"
     mc "Di trotoar (di trotoar jembatan, sebelahku ada sungai. Tidak salahkan?)"
-    tdk "Saya mohon, jangan membohongi saya, mc"
+    tdk "Saya mohon, jangan membohongi saya, Arda!"
     mc "Saya gak mungkin berbohong, asli kok saya ada di trotoar"
     tdk "Kenapa aku mendengarkan ada suara arus sungai yang kencang? Apakah anda berada di atas jembatan?"
     mc "Tidak, saya berada di atas trotoar"
@@ -83,7 +83,7 @@ label start:
     tdk "Hahhh... Saya mohon maaf atas perilaku saya yang sangat memalukan. Mungkin ini bawaan dari perang Nagini"
     mc "Gak masalah, jadi... ada apa anda menelpon saya?"
     tdk "Bisakah anda berbicara dengan saya sambil berjalan?"
-    mc "Bisa [mcmulai berjalan]"
+    mc "Bisa"
     w "Sebelumnya saya mohon maaf, nama saya Wozasky Montrym, anda bisa memanggil saya dengan w Saya adalah rekrutan baru dari rumah sakit Ciruka"
     mc "Wozasky ya, kayak nama orang cyka blyat gitu"
     w "Anda tahu arti dari cyka blyat?"
@@ -93,10 +93,10 @@ label start:
     w "Iyaaa... benar-benar kata yang sangat jorok dan kasar di waktu yang sama"
     mc "Oh, maaf"
     w "Tidak masalah"
-    w "  mc sekarang anda berada dimana?"
+    w "Arda, sekarang anda berada dimana?"
     mc "Di luar jembatan, sekitar 2 meter jauhnya"
 
-    w "  mc dengarkan ini baik-baik. Pertama-tama aku ingin anda bernafas dengan tenang"
+    w " Arda, dengarkan ini baik-baik. Pertama-tama aku ingin anda bernafas dengan tenang"
     mc "Kenapa?"
     w "Lakukan saja, lakukan apa yang aku katakan"
     mc "Baiklah, hufffff... hahhhhh... [mengambil nafas dan mengeluarkan]"
@@ -162,7 +162,7 @@ label start:
     mc "Terus berkembang bro, jangan kayak kakak kamu yang suka males ngapa-ngapain juga, hehehe."
     mc "Yaudah itu aja ya, jangan macem-macem sama diri kamu sendiri. Jaga kesehatan kamu, terus hidup, jangan mati konyol. Goodbye Harrisirta."
     mc "Lope-lope from your handsome bigbro"
-    mc"..."
+    mc "..."
     mc "one “[hapus semua chat kontak Harris, artinya buat si chat diatas reverse]"
     mc "Habs 5 menit gak ada hasil"
 
