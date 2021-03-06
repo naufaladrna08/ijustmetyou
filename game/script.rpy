@@ -2,34 +2,25 @@
 # cnth. image eileen happy = "eileen_happy.png"
 
 # Deklarasikan karakter yang digunakan di game.
-<<<<<<< HEAD
-define  mc = Character('Arda')
-=======
-define mc = Character('mc')
->>>>>>> 84b014248a41d0f68448d9fc08df3529f9b87786
-define spk = Character('Speaker')
-define s1 = Character('Siswa 1')
-define s2 = Character('Siswa 2')
-define s3 = Character('Siswa 3')
-define s4 = Character('Siswa 4')
-define s5 = Character('Siswa 5')
-define s6 = Character('Siswa 6')
-define s7 = Character('Siswa 7')
-define s8 = Character('Siswa 8')
-define pg = Character("Pak Guru")
-define k2 = Character('Karina')
+define mc = Character('Arda', color="#ffffff")
+define spk = Character('Speaker', color="#2ecc71")
+define s1 = Character('Siswa 1', color="#e74c3c")
+define s2 = Character('Siswa 2', color="#e74c3c")
+define s3 = Character('Siswa 3', color="#e74c3c")
+define s4 = Character('Siswa 4', color="#e74c3c")
+define s5 = Character('Siswa 5', color="#e74c3c")
+define s6 = Character('Siswa 6', color="#e74c3c")
+define s7 = Character('Siswa 7', color="#e74c3c")
+define s8 = Character('Siswa 8', color="#e74c3c")
+define pg = Character("Pak Guru", color="#2ecc71")
+define k2 = Character('Karina', color="#e84393")
 define l = Character('Lara', color="#c8ffc8")
-define k = Character('Kay')
-define t = Character('Terry')
-define h = Character('Harris')
-define b = Character('Benny')
-<<<<<<< HEAD
-define tdk = Character ('?')
-define w = Character ('Wozky')
-=======
-define tdk = Character ('Anonim')
-define w = Character ('w')
->>>>>>> 84b014248a41d0f68448d9fc08df3529f9b87786
+define k = Character('Kay', color="#f1c40f")
+define t = Character('Terry', color="#3498db")
+define h = Character('Harris', color="#3498db")
+define b = Character('Benny', color="#3498db")
+define tdk = Character ('Telepon', color="#3498db")
+define w = Character('Wozky', color="#3498db")
 
 transform slightLeft:
     xalign 0.25
@@ -69,84 +60,19 @@ label start:
 
     "Bzzzzz Bzzzzz! Bzzzzz Bzzzzz!"
 
-<<<<<<< HEAD
-   mc "(Siapa ini? Cuman ada nomornya doang, apa belum aku simpan ya nomornya? Atau mungkin nomor baru Mamah? Karena dia pernah bilang mau ganti provider) jawab telpon"
-   mc "Halo?"
-   tdk "Halo, apakah ini dengan Arda"
-   mc "Nama Arda banyak, buk---"
-   tdk "Ardavelt Dovinie"
-   mc "Ya, itu saya. Ada apa?"
-   tdk "Apakah mood dan mental anda sedang baik saat ini?"
-   mc "Ya, tentu saja. Aku akan bertemu dengan keluargaku dan sahabat-sahabatku lagi, mana mungkin mood dan mentalku buruk sekarang"
-   tdk "Apakah tidak ada tempat yang membahayakan nyawa?"
-   mc "(melihat jembatan dan arus sungai yang begitu kencang) Tidak ada"
-   tdk "Ardavelt Dovinier. Sekarang anda berada dimana?"
-   mc "Di trotoar (di trotoar jembatan, sebelahku ada sungai. Tidak salahkan?)"
-   tdk "Saya mohon, jangan membohongi saya,  arda"
-   mc "Saya gak mungkin berbohong, asli kok saya ada di trotoar"
-   tdk "Kenapa aku mendengarkan ada suara arus sungai yang kencang? Apakah anda berada di atas jembatan?"
-   mc "Tidak, saya berada di atas trotoar"
-   tdk "ARDA!"
-   mc "Aghh?!"
-   mc "...."
-   mc "Maaf, saya berada diatas jembatan dan betul ada sungai dibawah jembatan dengan arus yang kencang"
-   tdk "Hahhh... Saya mohon maaf atas perilaku saya yang sangat memalukan. Mungkin ini bawaan dari perang Nagini"
-   mc "Gak masalah, jadi... ada apa anda menelpon saya?"
-   tdk "Bisakah anda berbicara dengan saya sambil berjalan?"
-   mc "Bisa (arda mulai berjalan)"
-   w "Sebelumnya saya mohon maaf, nama saya Wozasky Montrym, anda bisa memanggil saya dengan wozky Saya adalah rekrutan baru dari rumah sakit Ciruka"
-   mc "Wozasky ya, kayak nama orang cyka blyat gitu"
-   w "Anda tahu arti dari cyka blyat?"
-   mc "Enggak"
-   w "Ada baiknya anda jangan menggunakan kata itu sembarangan"
-   mc "Kenapa? Kata kasar?"
-   w "Iyaaa... benar-benar kata yang sangat jorok dan kasar di waktu yang sama"
-   mc "Oh, maaf"
-   w "Tidak masalah"
-   w " arda sekarang anda berada dimana?"
-   mc "Di luar jembatan, sekitar 2 meter jauhnya"
-
-   w "  arda dengarkan ini baik-baik. Pertama-tama aku ingin anda bernafas dengan tenang"
-   mc "Kenapa?"
-   w "Lakukan saja, lakukan apa yang aku katakan"
-   mc "Baiklah, hufffff... hahhhhh... (mengambil nafas dan mengeluarkan)"
-   w "Ya, terus lakukan sampai anda merasa tenang"
-   mc "hufffff... hahhhhh..."
-   w "Bagaimana perasaan anda kali ini"
-   mc "Cukup tenang"
-   w "Baiklah, apakah ada tempat duduk di dekat sana?"
-   mc "Tidak ada, ini di trotoarkan"
-   w "Baiklah. Arda kami memiliki pesan untuk anda"
-   mc "Pesan? Gak bisa dichat aja?"
-   w "Mungkin lebih tepatnya berita. Saya selaku mantan ten--- Saya selaku manusia yang pernah mengalami ini merasa chat bukanlah pilihan yang tepat"
-   mc "Ok..."
-   w "kedua orang tuamu meninggal karena kecelakan di perempatan Jalan Mori, terjadi pada jam setengah 8 malam hari ini"
-   mc "(Jadi... saat aku baru menginjakan tanah di kota ini... Ibu... Ayah... tapi mengapa?) Bagaimana dengan Harris?"
-   w "!"
-   w "Dia baik-baik saja di rumah, dia tidak ikut dengan kedua orang tuamu"
-   mc "Salah siapa ini?"
-   w "Pengemudi yang menabrak dari samping. Kedua orang tuamu adalah penumpang dimobil Pak Nadi."
-   w "Saat lampu berwarna hijau, mereka jalan, akan tetapi... mobil pickup melewati lampu merah dan melaju sangat cepat dari samping, dan menabrak mereka bertiga. Pak Nadi dengan ajaib selamat, tapi orang tuamu... maaf, tidak bisa kami selamatkan..."
-   mc "Terkadang dunia ini tidak adil, tapi kau harus menerimanya dan terus berdiri"
-   w "Huh? Arda kita bisa membicarakan ini. Kau bisa berbicara denganku, lepaskanlah semua isi di hatimu. Aku akan mendengarkannya"
-   mc "Tidak ada yang bisa dibicarakan lagi, wozky Semuanya terdengar dengan jelas, terimakasih atas kabarnya. Aku ingin bergegas ke rumah untuk bertemu dengan adikku (berjalan menuju jembatan)"
-   w "Baiklah. Arda jika ada apa-apa, telepon nomor yang akan aku SMS-kan. Jaga dirimu baik-baik, tentunya dengan adikmu"
-   mc "Terimakasih Wozky (menutup panggilan)"
-   mc "bangsat..."
-=======
     mc "(Siapa ini? Cuman ada nomornya doang, apa belum aku simpan ya nomornya? Atau mungkin nomor baru Mamah? Karena dia pernah bilang mau ganti provider) jawab telpon"
     mc "Halo?"
-    tdk "Halo, apakah ini dengan     mc"
-    mc "Nama mcbanyak, buk---"
+    tdk "Halo, apakah ini dengan Arda"
+    mc "Nama Arda banyak, buk---"
     tdk "Ardavelt Dovinie"
     mc "Ya, itu saya. Ada apa?"
     tdk "Apakah mood dan mental anda sedang baik saat ini?"
     mc "Ya, tentu saja. Aku akan bertemu dengan keluargaku dan sahabat-sahabatku lagi, mana mungkin mood dan mentalku buruk sekarang"
     tdk "Apakah tidak ada tempat yang membahayakan nyawa?"
-    mc "[melihat jembatan dan arus sungai yang begitu kencang] Tidak ada"
+    mc "(melihat jembatan dan arus sungai yang begitu kencang) Tidak ada"
     tdk "Ardavelt Dovinier. Sekarang anda berada dimana?"
     mc "Di trotoar (di trotoar jembatan, sebelahku ada sungai. Tidak salahkan?)"
-    tdk "Saya mohon, jangan membohongi saya, mc"
+    tdk "Saya mohon, jangan membohongi saya,  arda"
     mc "Saya gak mungkin berbohong, asli kok saya ada di trotoar"
     tdk "Kenapa aku mendengarkan ada suara arus sungai yang kencang? Apakah anda berada di atas jembatan?"
     mc "Tidak, saya berada di atas trotoar"
@@ -157,8 +83,8 @@ label start:
     tdk "Hahhh... Saya mohon maaf atas perilaku saya yang sangat memalukan. Mungkin ini bawaan dari perang Nagini"
     mc "Gak masalah, jadi... ada apa anda menelpon saya?"
     tdk "Bisakah anda berbicara dengan saya sambil berjalan?"
-    mc "Bisa [mcmulai berjalan]"
-    w "Sebelumnya saya mohon maaf, nama saya Wozasky Montrym, anda bisa memanggil saya dengan w Saya adalah rekrutan baru dari rumah sakit Ciruka"
+    mc "Bisa (arda mulai berjalan)"
+    w "Sebelumnya saya mohon maaf, nama saya Wozasky Montrym, anda bisa memanggil saya dengan wozky Saya adalah rekrutan baru dari rumah sakit Ciruka"
     mc "Wozasky ya, kayak nama orang cyka blyat gitu"
     w "Anda tahu arti dari cyka blyat?"
     mc "Enggak"
@@ -167,20 +93,20 @@ label start:
     w "Iyaaa... benar-benar kata yang sangat jorok dan kasar di waktu yang sama"
     mc "Oh, maaf"
     w "Tidak masalah"
-    w "  mc sekarang anda berada dimana?"
+    w " arda sekarang anda berada dimana?"
     mc "Di luar jembatan, sekitar 2 meter jauhnya"
 
-    w "  mc dengarkan ini baik-baik. Pertama-tama aku ingin anda bernafas dengan tenang"
+    w "  arda dengarkan ini baik-baik. Pertama-tama aku ingin anda bernafas dengan tenang"
     mc "Kenapa?"
     w "Lakukan saja, lakukan apa yang aku katakan"
-    mc "Baiklah, hufffff... hahhhhh... [mengambil nafas dan mengeluarkan]"
+    mc "Baiklah, hufffff... hahhhhh... (mengambil nafas dan mengeluarkan)"
     w "Ya, terus lakukan sampai anda merasa tenang"
     mc "hufffff... hahhhhh..."
     w "Bagaimana perasaan anda kali ini"
     mc "Cukup tenang"
     w "Baiklah, apakah ada tempat duduk di dekat sana?"
     mc "Tidak ada, ini di trotoarkan"
-    w "Baiklah.  mc kami memiliki pesan untuk anda"
+    w "Baiklah. Arda kami memiliki pesan untuk anda"
     mc "Pesan? Gak bisa dichat aja?"
     w "Mungkin lebih tepatnya berita. Saya selaku mantan ten--- Saya selaku manusia yang pernah mengalami ini merasa chat bukanlah pilihan yang tepat"
     mc "Ok..."
@@ -192,12 +118,11 @@ label start:
     w "Pengemudi yang menabrak dari samping. Kedua orang tuamu adalah penumpang dimobil Pak Nadi."
     w "Saat lampu berwarna hijau, mereka jalan, akan tetapi... mobil pickup melewati lampu merah dan melaju sangat cepat dari samping, dan menabrak mereka bertiga. Pak Nadi dengan ajaib selamat, tapi orang tuamu... maaf, tidak bisa kami selamatkan..."
     mc "Terkadang dunia ini tidak adil, tapi kau harus menerimanya dan terus berdiri"
-    w "Huh?  mc kita bisa membicarakan ini. Kau bisa berbicara denganku, lepaskanlah semua isi di hatimu. Aku akan mendengarkannya"
-    mc "Tidak ada yang bisa dibicarakan lagi, w Semuanya terdengar dengan jelas, terimakasih atas kabarnya. Aku ingin bergegas ke rumah untuk bertemu dengan adikku [berjalan menuju jembatan]"
-    w "Baiklah.  mc jika ada apa-apa, telepon nomor yang akan aku SMS-kan. Jaga dirimu baik-baik, tentunya dengan adikmu"
-    mc "Terimakasih w[menutup panggilan]"
+    w "Huh? Arda kita bisa membicarakan ini. Kau bisa berbicara denganku, lepaskanlah semua isi di hatimu. Aku akan mendengarkannya"
+    mc "Tidak ada yang bisa dibicarakan lagi, wozky Semuanya terdengar dengan jelas, terimakasih atas kabarnya. Aku ingin bergegas ke rumah untuk bertemu dengan adikku (berjalan menuju jembatan)"
+    w "Baiklah. Arda jika ada apa-apa, telepon nomor yang akan aku SMS-kan. Jaga dirimu baik-baik, tentunya dengan adikmu"
+    mc "Terimakasih Wozky (menutup panggilan)"
     mc "bangsat..."
->>>>>>> 84b014248a41d0f68448d9fc08df3529f9b87786
 
     "Tanpa habis pikir, aku pergi ke jembatan yang aku lewati"
     "Aku berjalan"
@@ -217,122 +142,18 @@ label start:
     "Aku melihatnya, arus sungai itu. Sangat mendukung untuk menyeret manusia dengan cepat hingga hilang dari dunia ini"
     "Bukankah ini bagus. Bahkan alam mendukungku untuk melakukan ini, hahaha"
 
-<<<<<<< HEAD
-   mc "Bagaimana rasanya jika aku melompat dari jembatan ini?"
-
-   "Akankah aku terbang seperti pahlawan super? Atau hanya seperti seorang pecundang?"
-   "Mungkin hanya akan seperti diriku, seorang pecundang yang ingin menjadi pahlawan super..."
-   "Mimpi kecilku yang takkan terwujud...Terlalu banyak bermimpi bisa menyebabkan orang gila"
-   "Tapi kenapa aku tidak pernah menjadi orang gila?"
-   "Aku menaiki jembatan dan berdiri di belakang penahannya"
-
-   mc "Sambil minum susu enak kayaknya, susu stroberi hangat"
-   mc "Woah, susu stroberi hangat. Inovasi terbaru"
-   mc "(membuka hp Timer), timer, timer... Nahh, ketemu. Set waktu ke 5 menit, sip"
-   mc "(membuka kontak Harris) Harris, gimana kabar kamu, cepet-cepet sehat ya."
-   mc ". Oh iya, kakak kayaknya gak bakal bisa ketemu sama kamu lagi."
-   mc "Kakak bakal tinggal sendiri di kota Barta, tenang aja kalau masalah uangmah."
-   mc "Disana kakak udah dapet kerjaan kok, si Bapak Rahman orangnya baik, kakak kerja jadi orang yang nyatet-nyatet data."
-   mc "Kamu tahulah namanya apa, kamukan orang paling pinter di sekolah, hehehe."
-   mc "Terus berkembang bro, jangan kayak kakak kamu yang suka males ngapa-ngapain juga, hehehe."
-   mc "Yaudah itu aja ya, jangan macem-macem sama diri kamu sendiri. Jaga kesehatan kamu, terus hidup, jangan mati konyol. Goodbye Harrisirta."
-   mc "Lope-lope from your handsome bigbro"
-   mc"..."
-   mc "one “(hapus semua chat kontak Harris, artinya buat si chat diatas reverse)"
-   mc "Habs 5 menit gak ada hasil"
-
-   "Kenapa aku melakukan ini?"
-   "Kenapa?"
-   "tolong..."
-   "Tolong..."
-
-   "TOLONGGG!!!"
-   "TOLONG AKUUUUU!!! TOLONGGGGG!!!!!"
-   "AKU GAK MAU MATI!!! TOLONGGG!!!"
-   "KENAPA GAK ADA ORANG YANG MENDENGARKAN AKU?!?!?!"
-   "KENAPA?!?!"
-   "tolong..."
-   "Cukup seorang saja... tolong..."
-   
-   mc "Nangis? Haha-- hiks..."
-   mc "Ibu... Ayah... kenapa..."
-   mc "Kenapa disaat aku menginjakan tanah ini, kalian meninggalkanku..."
-   mc "Kenapa..."
-   mc "Nadi... Pak Nadi anjing... Si bajingan bawa-bawa orang tua gue cuman buat main-main! Gak ada kerjaan lain apa?! Emangnya gak punya temen yang lain selain Ayah sama Ibu gue?!"
-   mc "bajingan..."
-   mc "one: “Beepbeepbeep, beeppp beeppp, beepbeepbeep, beeppp beeppp"
-   mc "(matiin alarm) Udah habis ya..."
-
-   menu :
-    "Apa yang akan kamu lakukan ?"
-
-    "Jadilah pahlawan" :
-        "Aku sudah muak... aku sudah muak dengan kehidupanku dari TK sampai SMP."
-        "Rasanya seperti neraka... Mereka tahu aku biasa menyendiri, tapi kenapa mereka mengolok-olok diriku? Kenapa mereka tidak ingin mengajakku untuk makan di jam istirahat bersama-sama?"
-        "Aku juga ingin memiliki teman... terakhir aku berinteraksi dengan ‘teman’, mereka membully-nya... mereka membully-nya, mereka mengancam jika dia berinteraksi denganku, maka dia akan memiliki nasib yang sama sepertiku."
-        "Kenapa mereka sangat kejam pada diriku... apa salahku?"
-        
-        mc "APA SALAHKU?!"
-        mc "apa salahku..."
-        mc "bagaimana rasanya?"
-
-        "Bagaimana rasanya jika aku jatuh dari ketinggian ini ke arus sungai yang sangat kencang?"
-        "Apakah akan sakit seperti jatuh ke aspal? Atau mungkin seperti jatuh ke kolam renang?"
-        "Pada momen itu, aku melepaskan peganganku dari besi jembatan itu"
-        "Rasanya sangat ringan, tubuhku sangat ringan, rasanya terbang seperti pahlawan super!"
-        "Semua beban dan penat di dalam diriku langsung hilang dalam sekejap"
-        "Tapi tidak dengan kenangan yang tiba-tiba menyambar pikiranku."
-        "Sayangnya, itu tidak akan bekerja, aku sudah merelakan semuanya. Adikku, sahabatku, impianku, semuanya sudah kutinggalkan, aku tidak memiliki rasa penyesalan..."
-        "Selamat tinggal dunia..."
-        "Halo neraka"
-        "Aku tahu kau akan menjumpaiku"
-        "Aku menerimanya..."
-        
-
-
-    "Jadilah pecundang":
-        "Tubuhku tidak bergerak, entah kenapa aku tidak bisa melompat. Bahkan peganganku sangat kuat, bukan... ada yang memegang tanganku! Akupun berbalik dan melihat ke belakang."
-        "Tidak ada siapa-siapa, tapi kenapa... kenapa rasanya seperti ada orang yang menahan tanganku untuk tidak melepaskannya."
-        "Kenapa Harris harus menderita? Kenapa dia sangat lemah? Kenapa dia hanya bisa tersenyum? Kenapa... kenapa dia tersenyum? "
-        "Bagaimana bisa dia memiliki senyuman itu diwajahnya walaupun dia menderita penyakit Anemia Aplastik selama 4 bulan?!"
-        "Kenapa? Kenapa aku ingin meloncati jembatan ini? Kenapa? Kenapa disaat aku menginjakan tanah kota ini, kedua orang tuaku meninggal?"
-        "Kenapa? Kenapa rasa bersalah ini terus menghantuiku?"
-        "Bahkan ini bukan salahku, aku hanya ingin menemui keluargaku lagi... Kenapa aku tidak bisa sekuat Harris?"
-
-        mc "Aku adalah kakaknya... tapi kenapa... kenapa aku tidak bisa kuat seperti dirinya..."
-
-        "Jika orang tuaku sudah mati, maka tujuan hidupku selain menafkahi mereka disaat tua, apalagi? Apakah ada pilihan yang lain? "
-        "Aku bisa hidup karena mereka berdua... mereka adalah salah satu alasan kenapa aku tetap hidup... aku harap mereka tiba-tiba bangun dari kematian..."
-
-        mc "Huhh, hehe, hehehehe..."
-
-        "Hehehehehehehehehe, aneh"
-        "Mana mungkin bisa..."
-        "Harris!"
-
-        mc "Harris! Maaf maaf maaf maaf maaf maaf maaf, aku lupa aku lupa aku lupa, sialan kenapa aku bisa lupa, kenapa kenapa kenapa kenapa kenapa... kenaaapaa... KENAPA?!"
-
-        "Harris, kali ini hanya kaulah yang kumiliki. Aku akan menjagamu, bahkan aku akan menukarkan nyawaku hanya agar kau bisa bernafas"
-        "Kali ini, aku akan menjadi lelaki yang baik-baik, aku akan menjadi kakak yang baik-baik!"
-
-        "Hah, aku juga akan menjadi sahabat yang baik"
-        "Tunggu saja nanti"
-
-        jump label_chapter1
-=======
     mc "Bagaimana rasanya jika aku melompat dari jembatan ini?"
 
     "Akankah aku terbang seperti pahlawan super? Atau hanya seperti seorang pecundang?"
     "Mungkin hanya akan seperti diriku, seorang pecundang yang ingin menjadi pahlawan super..."
-    "Mimpi kecilku yang takkan terwujud..."
-    "Terlalu banyak bermimpi bisa menyebabkan orang gila"
+    "Mimpi kecilku yang takkan terwujud...Terlalu banyak bermimpi bisa menyebabkan orang gila"
     "Tapi kenapa aku tidak pernah menjadi orang gila?"
     "Aku menaiki jembatan dan berdiri di belakang penahannya"
 
     mc "Sambil minum susu enak kayaknya, susu stroberi hangat"
     mc "Woah, susu stroberi hangat. Inovasi terbaru"
-    mc "[membuka hp] Timer, timer, timer... Nahh, ketemu. Set waktu ke 5 menit, sip"
-    mc "[membuka kontak Harris] Harris, gimana kabar kamu, cepet-cepet sehat ya."
+    mc "(membuka hp Timer), timer, timer... Nahh, ketemu. Set waktu ke 5 menit, sip"
+    mc "(membuka kontak Harris) Harris, gimana kabar kamu, cepet-cepet sehat ya."
     mc ". Oh iya, kakak kayaknya gak bakal bisa ketemu sama kamu lagi."
     mc "Kakak bakal tinggal sendiri di kota Barta, tenang aja kalau masalah uangmah."
     mc "Disana kakak udah dapet kerjaan kok, si Bapak Rahman orangnya baik, kakak kerja jadi orang yang nyatet-nyatet data."
@@ -341,7 +162,7 @@ label start:
     mc "Yaudah itu aja ya, jangan macem-macem sama diri kamu sendiri. Jaga kesehatan kamu, terus hidup, jangan mati konyol. Goodbye Harrisirta."
     mc "Lope-lope from your handsome bigbro"
     mc"..."
-    mc "one “[hapus semua chat kontak Harris, artinya buat si chat diatas reverse]"
+    mc "one “(hapus semua chat kontak Harris, artinya buat si chat diatas reverse)"
     mc "Habs 5 menit gak ada hasil"
 
     "Kenapa aku melakukan ini?"
@@ -356,8 +177,7 @@ label start:
     "KENAPA?!?!"
     "tolong..."
     "Cukup seorang saja... tolong..."
-
-
+    
     mc "Nangis? Haha-- hiks..."
     mc "Ibu... Ayah... kenapa..."
     mc "Kenapa disaat aku menginjakan tanah ini, kalian meninggalkanku..."
@@ -365,14 +185,64 @@ label start:
     mc "Nadi... Pak Nadi anjing... Si bajingan bawa-bawa orang tua gue cuman buat main-main! Gak ada kerjaan lain apa?! Emangnya gak punya temen yang lain selain Ayah sama Ibu gue?!"
     mc "bajingan..."
     mc "one: “Beepbeepbeep, beeppp beeppp, beepbeepbeep, beeppp beeppp"
-    mc "[matiin alarm] Udah habis ya..."
+    mc "(matiin alarm) Udah habis ya..."
 
-    
->>>>>>> 84b014248a41d0f68448d9fc08df3529f9b87786
+    menu :
+        "Apa yang akan kamu lakukan ?"
+
+        "Jadilah pahlawan" :
+            "Aku sudah muak... aku sudah muak dengan kehidupanku dari TK sampai SMP."
+            "Rasanya seperti neraka... Mereka tahu aku biasa menyendiri, tapi kenapa mereka mengolok-olok diriku? Kenapa mereka tidak ingin mengajakku untuk makan di jam istirahat bersama-sama?"
+            "Aku juga ingin memiliki teman... terakhir aku berinteraksi dengan ‘teman’, mereka membully-nya... mereka membully-nya, mereka mengancam jika dia berinteraksi denganku, maka dia akan memiliki nasib yang sama sepertiku."
+            "Kenapa mereka sangat kejam pada diriku... apa salahku?"
+            
+            mc "APA SALAHKU?!"
+            mc "apa salahku..."
+            mc "bagaimana rasanya?"
+
+            "Bagaimana rasanya jika aku jatuh dari ketinggian ini ke arus sungai yang sangat kencang?"
+            "Apakah akan sakit seperti jatuh ke aspal? Atau mungkin seperti jatuh ke kolam renang?"
+            "Pada momen itu, aku melepaskan peganganku dari besi jembatan itu"
+            "Rasanya sangat ringan, tubuhku sangat ringan, rasanya terbang seperti pahlawan super!"
+            "Semua beban dan penat di dalam diriku langsung hilang dalam sekejap"
+            "Tapi tidak dengan kenangan yang tiba-tiba menyambar pikiranku."
+            "Sayangnya, itu tidak akan bekerja, aku sudah merelakan semuanya. Adikku, sahabatku, impianku, semuanya sudah kutinggalkan, aku tidak memiliki rasa penyesalan..."
+            "Selamat tinggal dunia..."
+            "Halo neraka"
+            "Aku tahu kau akan menjumpaiku"
+            "Aku menerimanya..."
+            
 
 
+        "Jadilah pecundang":
+            "Tubuhku tidak bergerak, entah kenapa aku tidak bisa melompat. Bahkan peganganku sangat kuat, bukan... ada yang memegang tanganku! Akupun berbalik dan melihat ke belakang."
+            "Tidak ada siapa-siapa, tapi kenapa... kenapa rasanya seperti ada orang yang menahan tanganku untuk tidak melepaskannya."
+            "Kenapa Harris harus menderita? Kenapa dia sangat lemah? Kenapa dia hanya bisa tersenyum? Kenapa... kenapa dia tersenyum? "
+            "Bagaimana bisa dia memiliki senyuman itu diwajahnya walaupun dia menderita penyakit Anemia Aplastik selama 4 bulan?!"
+            "Kenapa? Kenapa aku ingin meloncati jembatan ini? Kenapa? Kenapa disaat aku menginjakan tanah kota ini, kedua orang tuaku meninggal?"
+            "Kenapa? Kenapa rasa bersalah ini terus menghantuiku?"
+            "Bahkan ini bukan salahku, aku hanya ingin menemui keluargaku lagi... Kenapa aku tidak bisa sekuat Harris?"
 
-    
+            mc "Aku adalah kakaknya... tapi kenapa... kenapa aku tidak bisa kuat seperti dirinya..."
+
+            "Jika orang tuaku sudah mati, maka tujuan hidupku selain menafkahi mereka disaat tua, apalagi? Apakah ada pilihan yang lain? "
+            "Aku bisa hidup karena mereka berdua... mereka adalah salah satu alasan kenapa aku tetap hidup... aku harap mereka tiba-tiba bangun dari kematian..."
+
+            mc "Huhh, hehe, hehehehe..."
+
+            "Hehehehehehehehehe, aneh"
+            "Mana mungkin bisa..."
+            "Harris!"
+
+            mc "Harris! Maaf maaf maaf maaf maaf maaf maaf, aku lupa aku lupa aku lupa, sialan kenapa aku bisa lupa, kenapa kenapa kenapa kenapa kenapa... kenaaapaa... KENAPA?!"
+
+            "Harris, kali ini hanya kaulah yang kumiliki. Aku akan menjagamu, bahkan aku akan menukarkan nyawaku hanya agar kau bisa bernafas"
+            "Kali ini, aku akan menjadi lelaki yang baik-baik, aku akan menjadi kakak yang baik-baik!"
+
+            "Hah, aku juga akan menjadi sahabat yang baik"
+            "Tunggu saja nanti"
+
+            jump label_chapter1
 
 # Chapter 1
 label chapter1:
@@ -386,11 +256,7 @@ label chapter1:
         xzoom 0.5 yzoom 0.5
         xalign 0.5
 
-<<<<<<< HEAD
     k "Yo Arda"
-=======
-    k "Yo   mc"
->>>>>>> 84b014248a41d0f68448d9fc08df3529f9b87786
     mc "Ah! Kay. Kirain siapa, nyari kelas juga lu?"
     k "Yaiyalah, lu sendiri dah nemu kelas lu?"
     mc "Belum, ini lagi nyari nih"
@@ -540,17 +406,10 @@ label chapter1:
     "Apakah dia menyukaiku? "
     "Hahaha, aku tau itu hanyalah senyum sapaan. Senyuman itu akan menjadi koleksi di memoriku"
 
-<<<<<<< HEAD
     b "Oy Arda"
     mc "Huh?"
     pg "Ekhm, Arda... darimana asal kelasnya?"
     mc "Ah! Arda dari kelas 11-D"
-=======
-    b "Oy   mc"
-    mc "Huh?"
-    pg "Ekhm,   mc.. darimana asal kelasnya?"
-    mc "Ah! mcdari kelas 11-D"
->>>>>>> 84b014248a41d0f68448d9fc08df3529f9b87786
     pg "Oook, lanjut"
     b "Malah bengong lu disuruh ngenalin diri"
     mc "Sorry sorry, hehehe"
